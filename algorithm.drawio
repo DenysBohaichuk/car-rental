@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Сторінка-1" id="Eh5V5yJIR9EtihI5tZcr">
+    <mxGraphModel dx="1464" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dyXmCGj0XtncshDTTGS1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-1" target="dyXmCGj0XtncshDTTGS1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-1" value="початок оренди" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="355" y="40" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-2" value="перевірка чи початок оренди в проміжку&amp;nbsp;&lt;div&gt;9-21&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-5" target="dyXmCGj0XtncshDTTGS1-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-9" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-8">
+          <mxGeometry x="-0.0486" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-5" target="dyXmCGj0XtncshDTTGS1-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-30" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-11">
+          <mxGeometry x="-0.4298" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-5" value="перевіряємо чи початок оренди &amp;lt;= та кінець оренди =&amp;gt; за 9:00 годин&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-2" target="dyXmCGj0XtncshDTTGS1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-7" value="не в проміжку" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-6">
+          <mxGeometry x="-0.1882" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-10" target="dyXmCGj0XtncshDTTGS1-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-14" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-13">
+          <mxGeometry x="-0.2893" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-10" target="dyXmCGj0XtncshDTTGS1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-17" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-16">
+          <mxGeometry x="0.0498" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-10" value="перевіряємо чи кінець оренди&lt;div&gt;&amp;nbsp;в день початку оренди&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="415" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-15" target="dyXmCGj0XtncshDTTGS1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-26" value="ні" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-25">
+          <mxGeometry x="-0.6" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dyXmCGj0XtncshDTTGS1-15" target="dyXmCGj0XtncshDTTGS1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-29" value="так" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dyXmCGj0XtncshDTTGS1-28">
+          <mxGeometry x="-0.3651" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-15" value="чи має кінець оренди&amp;nbsp;&lt;div&gt;&amp;gt;= 9 годин до 21:00&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-21" value="ставимо день початку оренди як зайнятий" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-24" value="ставимо день початку оренди як зайнятий" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-27" value="записуємо кінець даної оренди для майбутніх перевірок" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dyXmCGj0XtncshDTTGS1-31" value="чи кінець оренди між&lt;div&gt;&amp;nbsp;9-21&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="160" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
